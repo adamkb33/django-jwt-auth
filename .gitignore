@@ -1,0 +1,41 @@
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore logs and error reports
+*.log
+__pycache__
+
+migrations
+
+
+# Ignore media files (user-uploaded content)
+yggdrasil/media/
+
+# Ignore static files (collectstatic)
+
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+
+# Ignore sensitive or secret files (update as needed)
+secrets.json
+settings/local_settings.py
+
+# Ignore IDE and code editor-specific files and directories
+.idea/
+.vscode/
+*.pyc
+
+# Ignore system-specific or editor-generated files
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Variables
+../.env
+.env
+venv
